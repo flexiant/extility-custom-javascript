@@ -1,0 +1,57 @@
+/*
+
+This is the CSS for The Matrix look and feel example.
+
+*/
+
+#matrix-overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.0);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999999;
+}
+
+#matrix-popup {
+	position: absolute;
+	background: #000;
+	color: #00CC00;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 600px;
+	height: 220px;
+	
+	padding: 20px;
+	text-align: center;
+	-webkit-box-shadow: 3px 3px 100px -10px rgba(0,204,0,1);
+	-moz-box-shadow: 3px 3px 100px -10px rgba(0,204,0,1);
+	box-shadow: 3px 3px 100px -10px rgba(0,204,0,1);
+	border-radius: 10px;
+}
+
+#matrix-pill-red,
+#matrix-pill-blue {
+	width: 80px;
+  	border-radius: 20px;
+}
+#matrix-pill-blue {
+	background: #00F;
+}
+
+#matrix-pill-red {
+	background: #F00;
+	margin-right: 20px;
+}
+
+#matrix-pill-blue:hover {
+	background: #66F;
+}
+
+#matrix-pill-red:hover {
+	background: #F66;
+}

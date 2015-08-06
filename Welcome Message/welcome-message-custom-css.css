@@ -1,0 +1,43 @@
+/*
+
+This is the CSS for the Welcome Message example.
+
+*/
+.fco-welcome-content {
+	padding: 0 20px 20px;
+}
+
+.fco-welcome-left,
+.fco-welcome-right {
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+}
+
+.fco-welcome-left {
+	width: 480px;
+}
+
+.fco-welcome-left > iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.fco-welcome-right {
+	padding: 0 20px;
+	text-align: center;
+}
+
+.fco-welcome-get-started  {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+}
